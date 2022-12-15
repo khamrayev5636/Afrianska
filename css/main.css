@@ -44,7 +44,8 @@ body {
   padding: 0;
   border: 0;
   white-space: nowrap;
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -138,6 +139,8 @@ body {
   }
   .header__nav {
     position: static;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     padding-top: 0;
     transform: translateX(0);
