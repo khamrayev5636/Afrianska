@@ -1,0 +1,36 @@
+/* Contact-hero start */
+
+.contact-hero {
+    background-image: url("../../images/ContactBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 60px;
+    padding: 50px 0;
+}
+
+.contact__title {
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.contact__desc {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact__text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Contact-hero end */
