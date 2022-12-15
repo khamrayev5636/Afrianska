@@ -477,6 +477,116 @@ body {
 }
 
 /* Customer end */
+.aside {
+  background-image: url("../../images/Mask-Group.png");
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.aside__inner {
+  padding: 70px 0;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.aside__inner-title {
+  margin-bottom: 16px;
+  font-family: "Gilroy";
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.aside__inner-text {
+  text-align: center;
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Customer start */
+.box {
+  background-color: #5a98d0;
+  border-radius: 200px 0px 0px 0px;
+}
+
+.customer {
+  padding-top: 96px;
+  padding-bottom: 125px;
+}
+
+.customer__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 123px;
+}
+
+.customer__title {
+  max-width: 245px;
+  width: 100%;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.customer__desc {
+  max-width: 540px;
+  width: 100%;
+}
+
+.customer__desc-text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.block__logo {
+  display: flex;
+  border-bottom: 1px solid #cacaca;
+}
+
+.block__more {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 235px;
+  width: 100%;
+  height: 128px;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #F2F2F2;
+  border-right: 1px solid #cacaca;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.logo:hover {
+  background-color: #4e87bb;
+}
+
+.logo:nth-of-type(4) {
+  border: none;
+}
+
+/* Customer end */
 /* Contact-hero start */
 .contact-hero {
   background-image: url("../../images/ContactBg.svg");
@@ -511,6 +621,267 @@ body {
 }
 
 /* Contact-hero end */
+.articl-innner {
+  margin-bottom: 56px;
+}
+
+.articl__inner-label {
+  display: block;
+  padding: 20px 0 20px 20px;
+  outline: none;
+  width: 940px;
+  background: #F4F4F4;
+  border-radius: 10px;
+}
+
+.articl__inner-svg {
+  vertical-align: middle;
+}
+
+.articl__inner-input {
+  vertical-align: middle;
+  background: #F4F4F4;
+  outline: none;
+  border: none;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 19px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.contactic__inner-title {
+  margin-top: 30px;
+  margin-bottom: 32px;
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+}
+
+.contactis__bolck {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+.contactic__block-title {
+  width: 380px;
+}
+
+.contactic__inner-subtitle {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Galien";
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contactic__inner-text {
+  margin-bottom: 30px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.contactic__inner__block-activ {
+  display: inline-block;
+  width: 125px;
+  margin-right: 102px;
+}
+
+.contactic__inner-block-strong {
+  display: inline-block;
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contactc__inner__block-time {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.4;
+}
+
+.contactc__inner-svg {
+  margin-right: 38px;
+}
+
+.contactic__images {
+  width: 540px;
+  height: 380px;
+  border-radius: 8px;
+}
+
+.contactic__list {
+  padding: 0;
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactic__list-item {
+  list-style-type: none;
+  width: 300px;
+}
+
+.contactic__item-img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 16px;
+  border-radius: 8px 8px 0 0;
+}
+
+.contactic__item-title {
+  margin-bottom: 16px;
+  font-family: "Galien";
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contactic__item-text {
+  margin-bottom: 16px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contactic__item-block {
+  width: 125px;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.contactic__item {
+  display: inline-block;
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contactic__item-activ {
+  display: inline-block;
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contactic__block-activ {
+  text-align: right;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 56px;
+}
+
+.contactic__title {
+  display: inline-block;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #356EAD;
+  opacity: 0.8;
+}
+
+.page__inner-title {
+  margin-bottom: 32px;
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+}
+
+.page__inner-list {
+  padding: 0;
+  margin-bottom: 56px;
+}
+
+.page__inner-item {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 32px;
+}
+
+.page__inner-img {
+  margin-right: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.page__inner__item-block {
+  display: inline-block;
+  width: 539px;
+}
+
+.page__inner__item-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Galien";
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.page__inner__item-text {
+  margin-bottom: 16px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.page__buuten-link {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.span-link {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page__link-activ {
+  margin-left: 19px;
+}
+
+.page__link {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  margin-right: 19px;
+}
+
 /* Contact form start */
 .contact-form {
   padding-bottom: 96px;
@@ -627,9 +998,29 @@ body {
   border-radius: 10px;
 }
 
+.form__input:not(:-moz-placeholder-shown):not(:focus):invalid {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+
+.form__input:not(:-ms-input-placeholder):not(:focus):invalid {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+}
+
 .form__input:not(:placeholder-shown):not(:focus):invalid {
   color: #ff0000;
   border: 1px solid #ff0000;
+}
+
+.form__input:not(:-moz-placeholder-shown):not(:focus):invalid + span {
+  color: #ff0000;
+  opacity: 1;
+}
+
+.form__input:not(:-ms-input-placeholder):not(:focus):invalid + span {
+  color: #ff0000;
+  opacity: 1;
 }
 
 .form__input:not(:placeholder-shown):not(:focus):invalid + span {
@@ -640,6 +1031,22 @@ body {
 .error-input {
   font-size: 12px;
   opacity: 0;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.2;
+}
+
+:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.2;
 }
 
 ::placeholder {
