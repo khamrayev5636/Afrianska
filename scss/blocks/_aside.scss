@@ -1,0 +1,38 @@
+ 
+
+ .aside{ 
+
+    background-image: url("../../images/Mask-Group.png"); 
+    background-repeat: repeat; 
+    background-position: center center; 
+    background-size: 100% 100%;
+ } 
+ .aside__inner{ 
+
+    padding: 70px 0; 
+    text-align: center; 
+    margin-bottom: 70px;
+ } 
+ .aside__inner-title{  
+  margin-bottom: 16px;  
+ font-family: 'Gilroy';
+font-size: 44px;
+line-height: 74px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+
+ } 
+ .aside__inner-text{ 
+    text-align: center;
+    width: 100%;
+    max-width: 780px;  
+    margin: 0 auto;
+    font-family: 'Gilroy';
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.04em;
+color: rgba(255, 255, 255, 0.4);
+
+ }

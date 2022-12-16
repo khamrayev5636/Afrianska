@@ -1,0 +1,150 @@
+ 
+
+ .contactic__inner-title{  
+ margin-top: 30px;   
+margin-bottom: 32px;
+font-family: 'Gilroy';
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.04em;
+color: #356EAD;
+opacity: 0.8;
+ } 
+ .contactis__bolck{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 33px;
+ } 
+ .contactic__block-title{ 
+
+   width: 380px;
+} 
+.contactic__inner-subtitle{  
+margin: 0;
+margin-bottom: 32px;
+font-family: 'Galien';
+font-size: 48px;
+line-height: 58px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+} 
+.contactic__inner-text{  
+margin-bottom: 30px;    
+font-family: 'Gilroy';
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.04em;
+color: #000000;
+opacity: 0.6;
+} 
+.contactic__inner__block-activ{ 
+    display: inline-block;
+    width: 125px; 
+    margin-right: 102px;
+} 
+.contactic__inner-block-strong{ 
+
+display: inline-block; 
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+} 
+.contactc__inner__block-time{ 
+
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+opacity: 0.4;
+} 
+.contactc__inner-svg{ 
+
+    margin-right: 38px;
+} 
+.contactic__images{ 
+
+    width: 540px; 
+    height: 380px; 
+    border-radius: 8px;
+} 
+
+// ===================================================list================================== 
+.contactic__list{ 
+    padding: 0; 
+    margin-bottom: 54px; 
+    display: flex; 
+    justify-content: space-between;
+}
+.contactic__list-item{ 
+
+    list-style-type: none; 
+    width: 300px; 
+
+} 
+.contactic__item-img{ 
+
+    width: 300px;
+    height: 200px; 
+    margin-bottom: 16px; 
+    border-radius: 8px 8px 0 0 ;
+}  
+.contactic__item-title{ 
+ 
+margin-bottom: 16px;
+font-family: 'Galien';
+font-size: 28px;
+line-height: 38px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+} 
+.contactic__item-text{ 
+margin-bottom: 16px;
+font-family: 'Gilroy';
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.04em;
+color: rgba(0, 0, 0, 0.6);
+} 
+.contactic__item-block{ 
+    width: 125px; 
+    display: inline-block; 
+    margin-right: 70px;
+} 
+.contactic__item{ 
+display: inline-block; 
+font-family: 'Gilroy';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+} 
+.contactic__item-activ{ 
+
+    display: inline-block; 
+    font-family: 'Gilroy';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: rgba(0, 0, 0, 0.4);
+} 
+.contactic__block-activ{ 
+    text-align: right;
+    padding: 24px 0; 
+    border-bottom:  1px solid rgba(0, 0, 0, 0.2); 
+    margin-bottom: 56px;
+} 
+.contactic__title{ 
+
+display: inline-block; 
+font-family: 'Gilroy';
+font-size: 16px;
+line-height: 20px;
+text-align: right;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #356EAD;
+opacity: 0.8;
+}

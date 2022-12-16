@@ -1,0 +1,76 @@
+  
+  .page__inner-title{ 
+ margin-bottom: 32px;    
+ font-family: 'Gilroy';
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.04em;
+color: #356EAD;
+opacity: 0.8;
+  }
+  .page__inner-list{ 
+
+    padding: 0; 
+    margin-bottom: 56px;
+  }
+ .page__inner-item{  
+    display: flex; 
+    list-style-type: none; 
+    margin-bottom: 32px;
+ } 
+ .page__inner-img{ 
+    margin-right: 20px; 
+   border-radius: 8px;
+    width: 300px;
+ } 
+ .page__inner__item-block{ 
+
+    display: inline-block; 
+    width: 539px;
+ } 
+ .page__inner__item-title{ 
+margin-top: 0;
+margin-bottom: 16px;
+font-family: 'Galien';
+font-size: 28px;
+line-height: 38px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+
+ } 
+ .page__inner__item-text{ 
+ margin-bottom: 16px;   
+font-family: 'Gilroy';
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.04em;
+color: rgba(0, 0, 0, 0.6);
+ } 
+
+ .page__buuten-link{ 
+
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 96px;
+ } 
+ .span-link{ 
+
+display: inline-block; 
+vertical-align: middle;  
+
+ }  
+ .page__link-activ{ 
+
+    margin-left: 19px;
+ }
+ .page__link{ 
+
+    display: inline-block; 
+    vertical-align: middle; 
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #356EAD; 
+    margin-right: 19px;
+ }
