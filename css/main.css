@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light.otf");
+}
+@font-face {
+  font-family: "Galien-Regular";
+  src: url("../fonts/Galien-Regular.woff");
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,7 +38,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: --, "Arial", sans-serif;
+  font-family: "Gilroy-Light", "Arial", sans-serif;
 }
 
 /* STICKY-FOOTER */
@@ -44,8 +56,7 @@ body {
   padding: 0;
   border: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -139,8 +150,6 @@ body {
   }
   .header__nav {
     position: static;
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
     padding-top: 0;
     transform: translateX(0);
@@ -998,29 +1007,9 @@ body {
   border-radius: 10px;
 }
 
-.form__input:not(:-moz-placeholder-shown):not(:focus):invalid {
-  color: #ff0000;
-  border: 1px solid #ff0000;
-}
-
-.form__input:not(:-ms-input-placeholder):not(:focus):invalid {
-  color: #ff0000;
-  border: 1px solid #ff0000;
-}
-
 .form__input:not(:placeholder-shown):not(:focus):invalid {
   color: #ff0000;
   border: 1px solid #ff0000;
-}
-
-.form__input:not(:-moz-placeholder-shown):not(:focus):invalid + span {
-  color: #ff0000;
-  opacity: 1;
-}
-
-.form__input:not(:-ms-input-placeholder):not(:focus):invalid + span {
-  color: #ff0000;
-  opacity: 1;
 }
 
 .form__input:not(:placeholder-shown):not(:focus):invalid + span {
@@ -1031,22 +1020,6 @@ body {
 .error-input {
   font-size: 12px;
   opacity: 0;
-}
-
-::-moz-placeholder {
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
-  color: #1F3F68;
-  opacity: 0.2;
-}
-
-:-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.04em;
-  color: #1F3F68;
-  opacity: 0.2;
 }
 
 ::placeholder {

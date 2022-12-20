@@ -117,7 +117,7 @@
     color: #ff0000;
     border: 1px solid #ff0000;
 }
-.form__input:not(:placeholder-shown):not(:focus):invalid +span {
+.form__input:not(:placeholder-shown):not(:focus):invalid + span {
     color: #ff0000;
     opacity: 1;
 }
